@@ -18,6 +18,7 @@
 		BF9E9FDA1852C2B80014A764 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9E9FB91852C2B70014A764 /* Cocoa.framework */; };
 		BF9E9FE21852C2B80014A764 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9E9FE01852C2B80014A764 /* InfoPlist.strings */; };
 		BF9E9FE41852C2B80014A764 /* IDSpoofTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9E9FE31852C2B80014A764 /* IDSpoofTests.m */; };
+		BF9E9FEF1852CAB20014A764 /* IDSController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9E9FEE1852CAB20014A764 /* IDSController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,8 @@
 		BF9E9FDF1852C2B80014A764 /* IDSpoofTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDSpoofTests-Info.plist"; sourceTree = "<group>"; };
 		BF9E9FE11852C2B80014A764 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF9E9FE31852C2B80014A764 /* IDSpoofTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDSpoofTests.m; sourceTree = "<group>"; };
+		BF9E9FED1852CAB20014A764 /* IDSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSController.h; sourceTree = "<group>"; };
+		BF9E9FEE1852CAB20014A764 /* IDSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDSController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		BF9E9FBF1852C2B70014A764 /* IDSpoof */ = {
 			isa = PBXGroup;
 			children = (
+				BF9E9FED1852CAB20014A764 /* IDSController.h */,
+				BF9E9FEE1852CAB20014A764 /* IDSController.m */,
 				BF9E9FCB1852C2B70014A764 /* IDSAppDelegate.h */,
 				BF9E9FCC1852C2B70014A764 /* IDSAppDelegate.m */,
 				BF9E9FCE1852C2B80014A764 /* MainMenu.xib */,
@@ -254,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF9E9FC61852C2B70014A764 /* main.m in Sources */,
+				BF9E9FEF1852CAB20014A764 /* IDSController.m in Sources */,
 				BF9E9FCD1852C2B70014A764 /* IDSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
